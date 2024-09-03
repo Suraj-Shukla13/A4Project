@@ -11,7 +11,7 @@ import org.openqa.selenium.support.PageFactory;
  */
 
 public class LeadsHomePage {
-	@FindBy(xpath="//img[@title='Create Lead..']")
+	@FindBy(xpath="//img[@title='Create Lead...']")
 	private WebElement createLeadButton;
 
 	public LeadsHomePage(WebDriver driver) {
